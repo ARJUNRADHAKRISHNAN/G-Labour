@@ -7,7 +7,12 @@
 
     tools:context=".OtpActivity">
 
-
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/splashcut"
+        android:layout_centerHorizontal="true"
+        />
 
     <EditText
         android:id="@+id/editTextCode"
