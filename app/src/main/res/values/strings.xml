@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Skill Mapping</string>
     <string name="title_activity_session">SessionActivity</string>
+    <string name="title_activity_service_category">ServiceCategoryActivity</string>
+    <string name="title_activity_customer_review">CustomerReviewActivity</string>
+    <string name="title_activity_employee_review">EmployeeReviewActivity</string>
 </resources>

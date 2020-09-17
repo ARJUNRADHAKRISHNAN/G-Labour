@@ -10,9 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".EmployeeReviewActivity"
+            android:label="@string/title_activity_employee_review"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".CustomerReviewActivity"
+            android:label="@string/title_activity_customer_review"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ServiceCategoryActivity"
+            android:label="@string/title_activity_service_category"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".SessionActivity"
             android:label="@string/title_activity_session"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
