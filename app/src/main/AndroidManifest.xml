@@ -9,10 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".AppliancesServices"></activity>
+        <activity android:name=".HomeMaintanence" />
         <activity
             android:name=".EmployeeReviewActivity"
             android:label="@string/title_activity_employee_review"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".CustomerReviewActivity"
             android:label="@string/title_activity_customer_review"
@@ -32,7 +34,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashScreen" />
         <activity android:name=".MainActivity" />
         <activity android:name=".OtpActivity" />
     </application>
