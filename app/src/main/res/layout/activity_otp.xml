@@ -10,8 +10,31 @@
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/splashcut"
+        android:src="@drawable/splashcutblack"
         android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Verification Code"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#080707"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Please type the verification code sent to your phone number"
+        android:textColor="#080707"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="18dp"
         />
 
     <EditText
@@ -24,7 +47,6 @@
         android:ems="10"
         android:hint="OTP"
         android:inputType="textMultiLine"
-        android:background="@drawable/edit"
         android:padding="20dp"
         tools:layout_editor_absoluteX="85dp"
         tools:layout_editor_absoluteY="57dp" />
